@@ -16,14 +16,72 @@
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager;
 
-import android.app.Application;
-import android.test.ApplicationTestCase;
+import android.content.Context;
 
-/**
- * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
- */
-public class ApplicationTest extends ApplicationTestCase<Application> {
-    public ApplicationTest() {
-        super(Application.class);
+import androidx.test.core.app.ApplicationProvider;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.ExpenseManager;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistentExpenseManager;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentTransactionDAO;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
+
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+
+public class ApplicationTest {
+
+    private static ExpenseManager expenseManager;
+    private static SQLiteHelper sqLiteHelper;
+
+    @Before
+    public void setUp() {
+        Context context = ApplicationProvider.getApplicationContext();
+        sqLiteHelper = new SQLiteHelper(context);
+        expenseManager = new PersistentExpenseManager(sqLiteHelper);
+        TransactionDAO persistentTransactionDAO = new PersistentTransactionDAO(sqLiteHelper);
+        expenseManager.setTransactionsDAO(persistentTransactionDAO);
     }
+
+    @Test
+    public void testAddAccount() {
+        expenseManager.addAccount("111", "ABC", "Bhanuja", 1000.0);
+        List<String> accNumbers = expenseManager.getAccountNumbersList();
+        assertTrue(accNumbers.contains("111"));
+    }
+
+    @Test
+    public void testLogTransactionExpense() throws InvalidAccountException {
+        try {
+            int numberOfLogsBegin = expenseManager.getTransactionsDAO().getAllTransactionLogs().size();
+            expenseManager.updateAccountBalance("111", 16, 05, 2022, ExpenseType.valueOf("EXPENSE"), "50");
+            int numberOfLogsEnd = expenseManager.getTransactionsDAO().getAllTransactionLogs().size();
+            assertEquals(numberOfLogsBegin + 1, numberOfLogsEnd);
+        } catch (InvalidAccountException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    @Test
+    public void testLogTransactionIncome() throws InvalidAccountException {
+        try {
+            int numberOfLogsBegin = expenseManager.getTransactionsDAO().getAllTransactionLogs().size();
+            expenseManager.updateAccountBalance("111", 16, 05, 2022, ExpenseType.valueOf("INCOME"), "50");
+            int numberOfLogsEnd = expenseManager.getTransactionsDAO().getAllTransactionLogs().size();
+            assertEquals(numberOfLogsBegin + 1, numberOfLogsEnd);
+        } catch (InvalidAccountException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 }

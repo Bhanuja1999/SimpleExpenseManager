@@ -1,0 +1,15 @@
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-appcompat-1.0.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\30d660b05c8c5572ed47a4c2924c48df\transformed\appcompat-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-transition-1.0.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\48c2b6baffa3acfc7283028679ac89f4\transformed\transition-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-material-1.0.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\5599ee6b87ccedf7f83ef22a0f4bd74f\transformed\material-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-cardview-1.0.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\5e853f245567d3e86a4bf95a7e1658a2\transformed\cardview-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-recyclerview-1.0.0-4 C:\Users\ASUS\.gradle\caches\transforms-3\a83da68b75bf8282c71b4bd673a6e7e7\transformed\recyclerview-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-core-1.0.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\c048b88c102539998ed23d1b6a022675\transformed\core-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-coordinatorlayout-1.0.0-6 C:\Users\ASUS\.gradle\caches\transforms-3\d55ee403a68b44a02774664f7602f297\transformed\coordinatorlayout-1.0.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-pngs-7 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\generated\res\pngs\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-resValues-8 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\generated\res\resValues\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-rs-9 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\generated\res\rs\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-mergeDebugResources-10 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-mergeDebugResources-11 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-merged_res-12 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\merged_res\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-debug-13 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\src\debug\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.app-main-14 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\src\main\res

@@ -1,0 +1,9 @@
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-jetified-annotation-experimental-1.1.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\528f96469cb86a51f5b29376625b5ce1\transformed\jetified-annotation-experimental-1.1.0\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-jetified-core-1.4.1-alpha06-1 C:\Users\ASUS\.gradle\caches\transforms-3\e795ed6a9e9565c900b2340957e50a68\transformed\jetified-core-1.4.1-alpha06\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-androidTest-2 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\generated\res\resValues\androidTest\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-androidTest-3 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\generated\res\rs\androidTest\debug
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-mergeDebugAndroidTestResources-5 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-merged_res-6 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\build\intermediates\merged_res\debugAndroidTest
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-androidTest-7 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\src\androidTest\res
+lk.ac.mrt.cse.dbs.simpleexpensemanager.test.app-androidTestDebug-8 C:\Users\ASUS\StudioProjects\SimpleExpenseManager\app\src\androidTestDebug\res

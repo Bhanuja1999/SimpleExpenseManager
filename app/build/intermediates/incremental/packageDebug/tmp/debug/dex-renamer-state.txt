@@ -1,0 +1,4 @@
+#Tue May 10 17:12:33 IST 2022
+base.0=C\:\\Users\\ASUS\\StudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
